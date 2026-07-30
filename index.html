@@ -697,13 +697,32 @@ footer .heart{color:#EF4444;}
         <div class="contact-row"><i class="fa-brands fa-github"></i><div><div class="label">GITHUB</div><div class="value">github.com/sathishg1776</div></div></div>
         <div class="contact-row"><i class="fa-solid fa-location-dot"></i><div><div class="label">LOCATION</div><div class="value">Tiruvannamalai, Tamil Nadu</div></div></div>
       </div>
-      <form class="glass contact-form" data-aos="fade-left" id="contactForm">
+      <form class="glass contact-form"
+      action="https://formsubmit.co/YOUR_EMAIL@gmail.com"
+      method="POST">
+        <input type="hidden" name="_captcha" value="false">
+
+<input type="hidden" name="_subject" value="New Portfolio Message">
+
+<input type="hidden" name="_template" value="table">
         <div class="form-row">
-          <div class="field"><label>Name</label><input type="text" placeholder="Your name" required></div>
-          <div class="field"><label>Email</label><input type="email" placeholder="abc123@email.com" required></div>
+          <input type="text"
+       name="name"
+       placeholder="Your name"
+       required>
+          <input type="email"
+       name="email"
+       placeholder="abc123@email.com"
+       required>
         </div>
-        <div class="field"><label>Subject</label><input type="text" placeholder="What's this about?" required></div>
-        <div class="field"><label>Message</label><textarea placeholder="Tell me about the opportunity or project..." required></textarea></div>
+        <input type="text"
+       name="subject"
+       placeholder="What's this about?"
+       required>
+       <textarea
+name="message"
+placeholder="Tell me about the opportunity..."
+required></textarea>
         <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
         <p class="form-note" id="formNote"></p>
       </form>
