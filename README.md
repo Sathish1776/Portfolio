@@ -1,2 +1,2 @@
 RESUME
-https://github.com/Sathish1776/Portfolio/issues/2#issue-5565989699
+https://github.com/user-attachments/files/32601604/Sathish.G.Resume.1.pdf
